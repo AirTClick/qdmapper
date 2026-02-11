@@ -62,9 +62,9 @@
                 <span class="author-block">
                   <a href="https://yulunzhang.net/" target="_blank">Yulun Zhang</a><sup>1</sup>,</span>
                   <span class="author-block">
-                    Varun Bhatt<sup>2</sup>,</span>
+                    <a href="https://vbhatt-cs.github.io/" target="_blank">Varun Bhatt<sup>2</sup>,</span>
                     <span class="author-block">
-                      Matthew C. Fontaine<sup>2</sup>,</span>
+                      <a href="https://tehqin.github.io/" target="_blank">Matthew C. Fontaine<sup>2</sup>,</span>
                       <span class="author-block">
                         <a href="https://stefanosnikolaidis.net/" target="_blank">Stefanos Nikolaidis</a><sup>2</sup>,</span>
                         <span class="author-block">
@@ -138,7 +138,9 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We take advantage of the QD algorithm and NCA with different objectives and diversity measures to generate maps with patterns to comprehensively understand the performance of MAPF algorithms and be able to make fair comparisons between two MAPF algorithms to provide further information on the selection between two algorithms. Empirically, we employ this technique to generate diverse benchmark maps to evaluate and compare the behavior of different types of MAPF algorithms such as bounded-suboptimal algorithms, suboptimal algorithms, and reinforcement-learning-based algorithms. Through both single-planner experiments and comparisons between algorithms, we identify patterns where each algorithm excels and detect disparities in runtime or success rates between different algorithms.
+            We use the Quality Diversity (QD) algorithm with Neural Cellular Automata (NCA) to automatically evaluate Multi-Agent Path Finding (MAPF) algorithms by generating diverse maps. Previously, researchers typically evaluate MAPF algorithms on a set of specific, human-designed maps at their initial stage of algorithm design. However, such fixed maps may not cover all scenarios, and algorithms may overfit to the small set of maps. To seek further improvements, systematic evaluations on a diverse suite of maps are needed.
+            In this work, we propose \textbf{Q}uality-\textbf{D}iversity \textbf{M}ulti-\textbf{A}gent \textbf{P}ath Finding \textbf{P}erformance \textbf{E}valuato\textbf{R} (QD-MAPPER), a general framework that takes advantage of the QD algorithm to 
+            comprehensively understand the performance of MAPF algorithms by generating maps with patterns, be able to make fair comparisons between two MAPF algorithms, providing further information on the selection between two algorithms and on the design of the algorithms. Empirically, we employ this technique to evaluate and compare the behavior of different types of MAPF algorithms, including search-based, priority-based, rule-based, and learning-based algorithms. Through both single-algorithm experiments and comparisons between algorithms, researchers can identify patterns that each MAPF algorithm excels and detect disparities in runtime or success rates between different algorithms.
           </p>
         </div>
       </div>
